@@ -23,7 +23,7 @@ Serverul se conecteaza la un port dat de utilizator( default este "44" ) si aste
 
 ### Detalii
 
-Clientul se conecteaza la server cu adresa si portul date de utilizator( default sunt "localhost" pentru adresa si "44" pentru port ) si isi alege un nume. Utilizatorul are la dispozitie : 
+Clientul se conecteaza la server cu adresa si portul date de utilizator( default sunt "localhost" pentru adresa si "44" pentru port ) si isi alege un nume. Utilizatorul poate : 
 
 * sa isi schimbe numele cu butonul "Nume";
 * sa primeasca lista de utilizatori de la server cu butonul "List";
@@ -31,7 +31,7 @@ Clientul se conecteaza la server cu adresa si portul date de utilizator( default
 * sa comunice cu un alt utilizator prin dublu-click pe numele acestuia din lista de clienti. Aceasta actiune va deschide o fereastra prin care poate comunica numai cu acel utilizator;
 * sa se deconecteze de la server.
 
-Utilizatorul va primii mesaje de la sever sau clienti in casutele corespunzatoare.
+Utilizatorul va primii mesaje de la server sau clienti in casutele corespunzatoare.
 
 ## Mesaj privat GUI
 

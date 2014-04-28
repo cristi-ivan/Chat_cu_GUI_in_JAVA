@@ -189,14 +189,14 @@ public class Server{
   
     synchronized void schimbareNume( String numeNou ){
   
-      int indexNume = listaNumeUtilizatori.indexOf(numeNou);
+      int indexNume = listaNumeUtilizatori.indexOf(nume);
       try{
           
            if( !listaNumeUtilizatori.contains( numeNou ) )
               {
                 listaNumeUtilizatori.remove(indexNume);
                 listaNumeUtilizatori.add(indexNume, numeNou );
-                afisareActivitate( "Utilizatorul " + numeNou + " si-a schimbat numele in " + numeNou + "\n" );
+                afisareActivitate( "Utilizatorul " + nume + " si-a schimbat numele in " + numeNou + "\n" );
                 nume = numeNou;
                 afisareLista();
                 outputClient.writeUTF( "SERVER Numele " + numeNou + " este acceptat\n" ); 

@@ -2,7 +2,7 @@
 
 ## Introducere
 
-Aceasta aplicatie are o arhitectura de tip client-server si ofera utilizatorilor posibilitatea conversatiilor in timp real, de tip text. Utilizatorii vor putea :
+Aceasta aplicatie are o arhitectura de tip client-server si ofera utilizatorilor posibilitatea conversatiilor in timp real, de tip text. Utilizatorii pot :
 
 * sa se conecteze la server;
 * sa isi aleaga un nume;
